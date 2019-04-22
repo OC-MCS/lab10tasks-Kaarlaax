@@ -2,6 +2,7 @@
 #include "Employee.h"
 #include <iostream>
 
+
 using namespace std;
 
 class ShiftSupervisor : public Employee
