@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 ShiftSupervisor::ShiftSupervisor(double sal, double bonu, string n, stringnum, string date):Employee(n,num,date)
 {
   salary = sal;
