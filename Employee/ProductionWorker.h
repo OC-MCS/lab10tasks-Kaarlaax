@@ -1,7 +1,20 @@
 #pragma once
-class ProductionWorker
+#include <iostream>
+#include <string>
+#include "Employee.h"
+
+using namespace std;
+
+class ProductionWorker: public Employee
 {
+	int shift;
+	double hourlyPay;
+	
 public:
-	ProductionWorker();
+	int getShift();
+	double getHourlyPay();
+	
+	ProductionWorker(int, double, string, string, string);
+	ProductionWorker(int, double, Employee);
 };
 
